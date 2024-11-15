@@ -36,12 +36,10 @@ const router = useRouter();
 const $http = inject("$axios");
 
 function jump() {
-  router.push({ path: '/1' });
+  router.push({ path: '/0' });
 }
 
-function jumpToRegister() {
-  router.push({ path: '/1' });
-}
+
 
 function getManager() {
   // 修剪输入字段的值，去除前后空格

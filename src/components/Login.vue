@@ -28,7 +28,7 @@ const router = useRouter();
 const $http = inject("$axios");
 
 function jump() {
-  router.push({ path: '/1' });
+  router.push({ path: '/main' });
 }
 
 function jumpToRegister() {
@@ -46,6 +46,8 @@ function getManager() {
 
   }).then(res => {
     if (res.data) {
+      // 存储 Token
+      localStorage.setItem("token", res.data.access_token);
       jump();
     } else {
       msg.value = true;
