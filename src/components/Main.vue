@@ -54,9 +54,11 @@
         </el-table>
 
         <p class="mt-4 text-sm">
-          Element Plus team uses <b>weekly</b> release strategy under normal
-          circumstance, but critical bug fixes would require hotfix so the actual
-          release number <b>could be</b> more than 1 per week.
+          Even if you know the glorious sun will not rise tomorrow,<br>
+          Even if the bright moon sinks beneath the vast ocean,<br>
+          Even if you foresee the inevitable tides of the world,<br>
+          Even if the end leaves nothing but ashes,<br>
+          You will never lose heart, but instead face it all with <b>unyielding determination</b> and an <b>indomitable spirit</b>.
         </p>
       </el-page-header>
     </div>
@@ -84,11 +86,11 @@ const drawer = ref(false)
 //个人信息
 const tableData = [
   {
-    data: 'Tom',
+    data: '奶味蓝蓝',
     name: '用户名',
   },
   {
-    data: '18300020011',
+    data: '13816030769',
     name: '电话号码',
   },
   {
@@ -96,11 +98,11 @@ const tableData = [
     name: '性别',
   },
   {
-    data: '2016-05-01',
+    data: '2004-07-07',
     name: '日期',
   },
   {
-    data: '2016660508',
+    data: '2632649293@qq.com',
     name: 'email',
   },
 ]
