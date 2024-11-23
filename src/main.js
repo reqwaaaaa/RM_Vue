@@ -11,12 +11,13 @@ import Main from "@/components/Main.vue"
 import POI from "@/components/POI.vue"
 import PinChe from "@/components/pinxche.vue"
 import TodayMenu from "@/web_page/TodayMenu.vue"
-
+import CoverPage from "@/components/CoverPage.vue";
 
 
 
 
 const routes = [
+    { path: '/', component: CoverPage }, // 添加默认路径，指向封面页面
     { path: '/0', component: Login },
     { path: '/1',component: Register},
     { path: '/main', component: Main},
