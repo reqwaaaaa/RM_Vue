@@ -27,6 +27,7 @@
 路由管理通过 **Vue Router** 实现，定义在 `main.js` 中。以下是主要的路由路径：
 ```javascript
 const routes = [
+    { path: '/', component: CoverPage },
     { path: '/0', component: Login },
     { path: '/1', component: Register },
     { path: '/main', component: Main },
