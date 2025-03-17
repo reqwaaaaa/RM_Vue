@@ -1,4 +1,4 @@
-# RouteMate 前端(Archived)
+# RouteMate 前端
 
 ## 1. 概述
 
